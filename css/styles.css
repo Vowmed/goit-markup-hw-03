@@ -1,0 +1,201 @@
+:root {
+    --color-logo:#4d5ae5;
+    --color-section1:#2e2f42;
+    --color-footer:#F4F4FD;
+    --color-paragraph:#434455;
+    }
+    body{
+      font-family:'Roboto', sans-serif;
+      color: #434455;
+      background-color: #FFFFFF;
+    }
+    .logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-logo);
+    }
+    .list{
+    
+    }
+    .first:hover{
+      color:#404bbf;
+    }
+    .first:focus{
+      color:#404bbf;
+    }
+    .first{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color:#2e2f42;
+    }
+    .li-one{
+      background-color: #FFFFFF;
+    
+    }
+    .address{
+      font-style: normal;
+    }
+    .heading-three{
+      font-size: 36px;
+      line-height: 1.11;
+      text-align: center;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color:#2e2f42;
+    
+    }
+    .span{
+      color: #2e2f42;
+    }
+    .span-footer{
+    color:#f4f4fd;
+    }
+    .footer-paragraph{
+      line-height: 1.5;
+      color: var(--color-footer);
+      letter-spacing: 0.02em; 
+    }
+    .link{
+      text-decoration: none; 
+    }
+    .contact{
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color:#434455;
+      text-decoration: none;
+    
+    }
+    .contact:hover{
+      color:#404bbf
+    }
+    .contact:focus{
+      color:#404bbf;
+    }
+    .filter-button :hover
+    .filter-button :focus{
+    background-color: var(--color-example);
+    }
+    .section-first{
+      background-color: var(--color-section1);
+    }
+    .section-second{
+      background-color: #F4F4FD;
+    
+    }
+    .heading-one{
+      font-size: 56px;
+      line-height: 1.07;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+    }
+    .heading-two{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color:#2e2f42;
+    }
+    .heading-four{
+      font-size: 36px;
+      line-height: 1.11;
+      text-align: center;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color:#2e2f42;
+    }
+    .heading-fife{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color:#2e2f42;
+    }
+    .heading-portfolio{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color: var(--color-section1);
+    
+    }
+    .paragraph-one{
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+    }
+    .paragraph-two{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+    .paragraph-portfolio{
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--color-paragraph)
+    }
+    .button{
+      background-color: #4D5AE5;
+      font-family: "Roboto",sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+    .button:hover{
+      background-color: #404BBF;
+    }
+    .button:focus{
+      background-color: #404BBF;
+    }
+    
+    .filter-button{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-logo);
+    background-color: var(--color-footer);
+    cursor: pointer;
+    }
+    .filter-button:hover{
+      color:#FFFFFF;
+      background-color: #404BBF;
+    }
+    .filter-button:focus{
+      color:#FFFFFF;
+      background-color: #404BBF;
+    }
+    
+    
+    .footer {
+      background-color: var(--navyblue);
+      padding: 100px 0;
+    }
+    
+    .footer-link {
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+    
+    .motto {
+      line-height: 1.5;
+      color: var(--cloud);
+      letter-spacing: 0.02em;
+      max-width: 264px;
+    }
+    
+    .studio-footer {
+      color: #f4f4fd;
+    }
