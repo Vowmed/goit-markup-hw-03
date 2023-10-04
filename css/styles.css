@@ -29,6 +29,19 @@
     .toplogo {
       margin-right: 76px;
     }
+    .navigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+    .link {
+      text-decoration: none;
+    }
+    
+    .studio {
+      color: var(--navyblue);
+    }
     .list{
     
     }
