@@ -26,6 +26,9 @@
     text-transform: uppercase;
     color: var(--color-logo);
     }
+    .toplogo {
+      margin-right: 76px;
+    }
     .list{
     
     }
