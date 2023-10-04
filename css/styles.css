@@ -9,6 +9,14 @@
       color: #434455;
       background-color: #FFFFFF;
     }
+  
+
+  .div-container {
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    gap: 290px;
+  }
     .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
