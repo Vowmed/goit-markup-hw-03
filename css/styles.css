@@ -225,6 +225,7 @@ img {
   gap: 24px;
 }
 
+
 .images-list {
   display: flex;
   gap: 24px;
@@ -395,4 +396,9 @@ img {
 
 .portfolio-desc {
   margin-bottom: 8px;
+}
+.portfolio-div{
+  padding: 32px 16px;
+  border: 1px solid var(--color-portfolio);
+  border-top: none;
 }
