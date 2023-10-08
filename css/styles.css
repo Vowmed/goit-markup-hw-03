@@ -224,7 +224,9 @@ img {
   margin-bottom: 72px;
   gap: 24px;
 }
-
+.list imagesfoto 
+{ display: flex;
+  gap: 24px;}
 
 .images-list {
   display: flex;
