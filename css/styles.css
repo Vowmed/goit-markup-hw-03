@@ -217,10 +217,12 @@ img {
 
 .section-three {
   padding-bottom: 120px;
+  gap: 24px;
 }
 
 .section-three-header {
   margin-bottom: 72px;
+  gap: 24px;
 }
 
 .images-list {
@@ -260,6 +262,7 @@ img {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% -3 * 24px) / 4);
+  gap: 24px;
 }
 
 .container-img {
