@@ -2,183 +2,153 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home work #3</title>
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="./css/styles.css">
-
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>h1 - main page</title>
+  <link href="./css/modern-normalize.min.css" rel="stylesheet" />
+  <link href="./css/styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    <!--main navigation-->
-    <header class="main-header">
-        <div class="container menu-header header">
-            <nav class="menu-header-navigation">
-                <!--logo-->
-                <a class="link-paddind logo link" href="./index.html">Web<span
-                        class="logo-span-header">Studio</span></a>
+  <header class="filter-header">
+    <div class="container navigation">
+      <nav class="nav-position">
+        <a href="/" class="logo link logo-position">WEB<span class="filter-studio">Studio</span></a>
+        <ul class="list mail">
+          <li><a href="./index.html" class="filter-nav link list-first inside-contacts">Studio</a></li>
+          <li><a href="./portfolio.html" class="filter-nav link list-first inside-contacts">Portfolio</a>
+          </li>
+          <li><a href="" class="filter-nav link list-first">Contacts</a></li>
+        </ul>
+      </nav>
+      <address class="filter-address nav-position">
+        <ul class="list mail">
+          <li><a href="mailto:info@devstudio.com" class="address filter-address link list-first">info@devstudio.com</a>
+          </li>
+          <li><a href="tel:+110001111111" class="address filter-address link list-first inside-contacts">+11 (000)
+              111-11-11</a></li>
+        </ul>
+      </address>
+    </div>
+  </header>
+  <main>
 
-                <ul class="list menu-header">
-                    <li><a class="link main-navigation-links link-paddind" href="./index.html">Studio</a></li>
-                    <li><a class="link main-navigation-links link-paddind" href="./portfolio.html">Portfolio</a></li>
-                    <li><a class="link main-navigation-links link-paddind" href="">Contacts</a></li>
-                </ul>
-            </nav>
+    <section class="main-title-background filter-title">
+      <div class="container">
+        <h1 class="branding-header title">Effective Solutions for Your Business</h1>
+        <button type="button" class="filter-single-button filter-first-button">Order Service</button>
+      </div>
+    </section>
 
-            <!--Phone & Mail-->
+    <section class="section boxes">
+      <div class="container">
+        <h2 class="visually-hidden">Our values</h2>
+        <ul class="list box-position">
+          <li class="filter-photos-list">
+            <h3 class="first-header box-title">Strategy</h3>
+            <p class="list-first">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li class="filter-photos-list">
+            <h3 class="first-header box-title">Punctuality</h3>
+            <p class="list-first">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li class="filter-photos-list">
+            <h3 class="first-header box-title">Diligence</h3>
+            <p class="list-first">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li>
+          <li class="filter-photos-list">
+            <h3 class="first-header box-title">Technologies</h3>
+            <p class="list-first">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-bottom">
+      <div class="container">
+        <h2 class="second-header filter-second-header">What are we doing</h2>
+        <ul class="list box-position mail">
+          <li class="filter-photos-list">
+            <img class="picture-block" src="./images/imac.jpg" width="360" height="300"
+              alt="monitor of an older model Imac displaying some kind of page " />
+          </li>
+          <li class="filter-photos-list">
+            <img class="picture-block" src="./images/iphone.jpg" width="360" height="300"
+              alt="iphone with open app and duplicated screen outside phone area" />
+          </li>
+          <li class="filter-photos-list">
+            <img class="picture-block" src="./images/hand.jpg" width="360" height="300"
+              alt="Hand holding phone, laptop can be seen in background" />
+          </li>
+        </ul>
+      </div>
+    </section>
 
-            <address class="contact">
-                <ul class="list list-contact">
-                    <li><a class="link link-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="link link-contact" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
-        </div>
-    </header>
-
-    <main>
-        <!--section-1-->
-        <section class="hero section-one-padding">
-            <div class="container">
-                <h1 class="section-one section-one-styling">Effective Solutions
-                    for Your Business </h1>
-
-                <button type="button" class="cursor button-text button-styling">Order Service</button>
-
+    <section class="filter-team-background section">
+      <div class="container">
+        <h2 class="second-header filter-second-header">Our Team</h2>
+        <ul class="list box-position">
+          <li class="filter-white-background box-calculations filter-team">
+            <img class="picture-block" src="./images/MarkGuerrero.jpg" alt="man in a blue shirt with short dark stubble"
+              width="264" height="260" />
+            <div class="filter-team-name">
+              <h3 class="first-header filter-third-header">Mark Guerrero</h3>
+              <p class="list-first filter-paragraph">Product Designer</p>
             </div>
-        </section>
-
-        <!--section-2-->
-        <section class="section section-two-padding ">
-            <div class="container">
-                <h2 class="visually-hidden">Lorem</h2>
-
-
-                <ul class="list section-two-styling">
-                    <li class="section-two-li">
-                        <h3 class="section-two">Strategy</h3>
-                        <p class="section-two-text">Our goal is to identify the business problem to walk away with the
-                            perfect and creative solution.
-                        </p>
-                    </li>
-
-                    <li class="section-two-li">
-                        <h3 class="section-two">Punctuality</h3>
-                        <p class="section-two-text">Bring the key message to the brand's audience for the best price
-                            within the shortest possible time.</p>
-                    </li>
-
-                    <li class="section-two-li">
-                        <h3 class="section-two">Diligence</h3>
-                        <p class="section-two-text">Research and confirm brands that present the strongest digital
-                            growth opportunities and minimize
-                            risk.
-                        </p>
-                    </li>
-
-
-                    <li class="section-two-li">
-                        <h3 class="section-two">Technologies</h3>
-                        <P class="section-two-text">Design practice focused on digital experiences. We bring forth a
-                            deep passion for problem-solving.</P>
-
-                    </li>
-                </ul>
+          </li>
+          <li class="filter-white-background box-calculations filter-team">
+            <img class="picture-block" src="./images/TomFord.jpg"
+              alt="Smiling blond man with light stubble in white shirt" width="264" height="260" />
+            <div class="filter-team-name">
+              <h3 class="first-header filter-third-header">Tom Ford</h3>
+              <p class="list-first filter-paragraph">Frontend Developer</p>
             </div>
-        </section>
-
-        <!--section-3-->
-        <section class="section section-tree-styling">
-            <div class="container">
-                <h2 class="section-three-header">What are we doing</h2>
-
-                <ul class="list section-tree-styling-ul">
-                    <li class="section-tree-empty">
-                        <a class="link" href=""><img src="imagesfoto/imakstary.jpg" alt="iMac" width="360"
-                                height="300"></a>
-                    </li>
-                    <li class="section-tree-empty">
-                        <a class="link" href=""><img src="imagesfoto/img2.jpg" alt="iPhone leyers"
-                                width="360" height="300"></a>
-                    </li>
-                    <li class="section-tree-empty">
-                        <a class="link" href=""><img src="imagesfoto/img3.jpg" alt="iPhone"
-                                width="360" height="300"></a>
-                    </li>
-                </ul>
+          </li>
+          <li class="filter-white-background filter-team box-calculations">
+            <img class="picture-block" src="./images/CamilaGarcia.jpg"
+              alt="A brown-haired woman with long loose hair wearing a pink sweater" width="264" height="260" />
+            <div class="filter-team-name">
+              <h3 class="first-header filter-third-header">Camila Garcia</h3>
+              <p class="list-first filter-paragraph">Marketing</p>
             </div>
-        </section>
-
-        <!--section-4-->
-        <section class="section-four-bg section-four-padding">
-            <div class="container">
-                <h2 class="section-four-header">Our Team</h2>
-                <ul class="list section-four-list-styling">
-
-                    <li class="section-four-text-bg">
-                        <img src="imagesfoto/imgmarkguerrero.jpg"
-                            alt="dark-haired man with facial hair in a blue business shirt" width="264" height="260">
-                        <div class="pictures-signature">
-
-                            <h3 class="section-four-text">Mark Guerrero</h3>
-                            <p class="section-four-positions">Product Designer</p>
-                        </div>
-                    </li>
-
-                    <li class="section-four-text-bg"><img src="imagesfoto/imgtomford.jpg"
-                            alt="red-haired man with light stubble in a blue casual shirt" width="264" height="260">
-                        <div class="pictures-signature">
-
-                            <h3 class="section-four-text">Tom Ford</h3>
-                            <p class="section-four-positions">Frontend Developer</p>
-                        </div>
-                    </li>
-
-                    <li class="section-four-text-bg"><img src="imagesfoto/imgkamilagarsia.jpg"
-                            alt="young woman with long hair in a pink sweater" width="264" height="260">
-                        <div class="pictures-signature">
-
-                            <h3 class="section-four-text">Camila Garcia</h3>
-                            <p class="section-four-positions">Marketing</p>
-                        </div>
-                    </li>
-
-                    <li class="section-four-text-bg"><img src="imagesfoto/imgdanielwilson.jpg"
-                            alt="young dark-haired man with facial hair in a gray T-shirt" width="264" height="260">
-                        <div class="pictures-signature">
-
-                            <h3 class="section-four-text">Daniel Wilson</h3>
-                            <p class="section-four-positions"> UI Designer </p>
-                        </div>
-                    </li>
-
-                </ul>
+          </li>
+          <li class="filter-white-background filter-team box-calculations">
+            <img class="picture-block" src="./images/DanielWilson.jpg"
+              alt="brunette with light stubble wearing a gray shirt " width="264" height="260" />
+            <div class="filter-team-name">
+              <h3 class="first-header filter-third-header">Daniel Wilson</h3>
+              <p class="list-first filter-paragraph">UI Designer</p>
             </div>
-        </section>
-    </main>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-
-    <footer class="footer-background">
-        <div class="container">
-            <a class="logo link footer-link" href="./index.html"> Web<span class="logo-span-footer">Studio</span></a>
-            <p class="footer-text">Increase the flow of customers and sales for your business with digital
-                marketing & growth solutions.</p>
-        </div>
-    </footer>
-
+  </main>
+  <footer class="main-title-background footer-position">
+    <div class="container">
+      <a href="/" class="logo link footer-link">WEB<span class="filter-studio-footer">Studio</span></a>
+      <p class="footer-paragraph filter-footer">
+        Increase the flow of customers and <br>sales for your business with digital
+        <br>marketing & growth solutions.
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>
